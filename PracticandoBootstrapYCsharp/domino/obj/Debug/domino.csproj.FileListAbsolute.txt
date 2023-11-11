@@ -1,0 +1,6 @@
+C:\C-sharp-MaxiPrograma\C-sharp-Nivel3\Curso-C-Nivel3\PracticandoBootstrapYCsharp\domino\bin\Debug\domino.dll
+C:\C-sharp-MaxiPrograma\C-sharp-Nivel3\Curso-C-Nivel3\PracticandoBootstrapYCsharp\domino\bin\Debug\domino.pdb
+C:\C-sharp-MaxiPrograma\C-sharp-Nivel3\Curso-C-Nivel3\PracticandoBootstrapYCsharp\domino\obj\Debug\domino.csproj.AssemblyReference.cache
+C:\C-sharp-MaxiPrograma\C-sharp-Nivel3\Curso-C-Nivel3\PracticandoBootstrapYCsharp\domino\obj\Debug\domino.csproj.CoreCompileInputs.cache
+C:\C-sharp-MaxiPrograma\C-sharp-Nivel3\Curso-C-Nivel3\PracticandoBootstrapYCsharp\domino\obj\Debug\domino.dll
+C:\C-sharp-MaxiPrograma\C-sharp-Nivel3\Curso-C-Nivel3\PracticandoBootstrapYCsharp\domino\obj\Debug\domino.pdb
