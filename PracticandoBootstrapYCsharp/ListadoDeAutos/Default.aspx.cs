@@ -27,5 +27,11 @@ namespace ListadoDeAutos
             dgvAutos.DataBind(); //estó es para que dibuje la lista en el html
             }
         }
+
+        protected void dgvAutos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var id = dgvAutos.SelectedDataKey.Value.ToString();
+            Response.Redirect("AgregarAuto.aspx?id=" + id);
+        }
     }
 }

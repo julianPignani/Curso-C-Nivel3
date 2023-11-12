@@ -20,6 +20,21 @@ namespace ListadoDeAutos
                 ddlColor.Items.Add("Blanco");
                 ddlColor.Items.Add("Negro");
             }
+
+            //Precargamos datos
+            if(Request.QueryString["id"] != null)
+            {
+                int id = int.Parse(Request.QueryString["id"].ToString());
+                List<Auto> temporal = (List<Auto>)Session["listaAutos"];
+                Auto seleccionado = temporal.Find(x => x.Id == id);
+                txtId.Text = seleccionado.Id.ToString();
+                txtMarca.Text = seleccionado.Marca;
+                txtModelo.Text = seleccionado.Modelo.ToString();
+                chboxUsado.Checked = seleccionado.Usado;
+                rdbImportado.Checked = seleccionado.Importado;
+
+                txtId.ReadOnly = true; //para que no deje modificar el id
+            }
         }
 
         protected void btnAceptar_Click(object sender, EventArgs e)
